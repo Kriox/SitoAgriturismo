@@ -1,0 +1,194 @@
+/* font-family Lato */
+
+@font-face{
+	font-family: "Lato";
+	src: url(../font/lato/Lato-Hairline.ttf) format("truetype"); 
+	font-weight:100;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url(../font/lato/Lato-Light.ttf) format("truetype"); 
+	font-weight:300;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url(../font/lato/Lato-Regular.ttf) format("truetype");
+	font-weight:400;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url(../font/lato/Lato-Bold.ttf) format("truetype"); 
+	font-weight:700;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url(../font/lato/Lato-Black.ttf) format("truetype"); 
+	font-weight:900;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url(../font/lato/Lato-HairlineItalic.ttf) format("truetype");
+	font-weight:100;
+	font-style:italic;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url(../font/lato/Lato-LightItalic.ttf) format("truetype"); 
+	font-weight:300;
+	font-style:italic;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url(../font/lato/Lato-Italic.ttf) format("truetype");
+	font-weight:400;
+	font-style:italic;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url(../font/lato/Lato-BoldItalic.ttf) format("truetype"); 
+	font-weight:700;
+	font-style:italic;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url(../font/lato/Lato-BlackItalic.ttf) format("truetype"); 
+	font-weight:900;
+	font-style:italic;
+}
+
+/* General */
+*{
+	box-sizing: border-box;
+	padding:0;
+}
+
+body{
+	background-color: hsl(33, 24%, 44%);
+
+}
+
+header{
+	font-family: "Lato";
+}
+
+img{
+	width:100%;
+}
+a{
+	color:black;
+}
+
+a:link{
+	text-decoration: none;
+	color:black;
+	font-weight: 900;
+}
+
+a:hover{
+	color:white;
+}
+
+nav li{
+	display:inline-block;
+	margin-right:1em;
+	margin-left: 1em;
+	font-size: 1.4em;
+	margin-top:0.4em;
+	margin-bottom: 0.4em;
+}
+nav ul{
+
+}
+nav{
+	display: block;
+	text-align: center;
+	background-color: hsl(33, 24%, 44%);
+}
+
+.maintitle {
+	text-align: center;
+	display: block;
+}
+
+.maintitle strong{
+	text-align: center;
+	font-size: 2em;
+	font-weight: 700;
+	font-style: italic; 
+}
+
+.maintitle strong span{
+	font-weight: 300;
+}
+
+.container{
+	background-color: hsl(34, 44%, 65%);
+	margin-right: 5%;
+	margin-left: 5%;
+	padding:0.5em;
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+}
+
+.imghome{
+	margin:2em;
+	display: inline-block;
+	height: 50%;
+
+}
+.basicinfo{
+	margin-right: 2em;
+	margin-left: 2em;
+	display: inline-block;
+	font-family: lato;
+	font-size: 1em;
+	word-spacing: 0.2em;
+	line-height: 1.5;
+	font-weight: 400;
+	height: 50%;
+}
+
+.prova{
+	display: block;
+}
+
+#mappa {
+	display: inline-block;
+}
+
+.infoposizione{
+	display: inline-block;
+	margin-left: 1em;
+	position:absolute;
+	font-size:1.6em;
+	}
+
+p.infoposizione{
+	margin-top:3em;
+	font-style: italic;
+	font-size: 1.4em;
+}
+
+
+.bottom{
+	margin:1em;
+	text-align: center;
+	border-color:hsl(33, 24%, 44%);
+	border-style: solid;
+	font-size: 1.2em;
+}
