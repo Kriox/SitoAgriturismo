@@ -271,3 +271,38 @@ p.infoposizione{
 	display: block;
 	overflow: hidden;
 }
+
+/* gallery e slide */
+
+.slidecontainer{
+	max-width: 1000px;
+	margin:auto;
+}
+
+.slide{
+	display:none;
+	transition-property: opacity;
+	transition-duration:2s;
+	transition-timing-function: linear;
+}
+
+.slide img{
+	height:500px;
+}
+
+.fade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 5s;
+	animation-name:fade;
+	animation-duration: 5s;
+}
+
+@-webkit-keyframes fade{
+	0%,100%{opacity: .1	}
+	50% {opacity: 1}
+}
+
+@keyframes fade{
+	0%,100%{opacity: .1	}
+	50% {opacity: 1}
+}
